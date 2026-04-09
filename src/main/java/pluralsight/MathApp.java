@@ -52,7 +52,7 @@ public class MathApp {
         int totalMin = totalNumHrs * minPerHour;
         int totalSecs = totalMin * secPerMin;
         long totalMs = totalSecs * msPerSec;
-        System.out.println("There are " + totalMin + " minutes and " + totalMs + " milliseconds in 24 days");
+        System.out.println("8. There are " + totalMin + " minutes and " + totalMs + " milliseconds in 24 days");
 
 
     }
