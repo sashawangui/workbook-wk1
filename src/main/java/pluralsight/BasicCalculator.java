@@ -39,7 +39,7 @@ public class BasicCalculator {
         else {
             System.out.println("Invalid");
         }
-
+        //print out the result
         System.out.println(result);
         }
 
