@@ -2,8 +2,8 @@ package pluralsight;
 
 import java.util.Scanner;
 
-public class BasicCalculator {
-    public static void main(String [] args){
+public class BasicCalculator { 
+     public static void main(String[] args){
         System.out.println("Welcome to Sasha's basic calculator");
 
         Scanner input = new Scanner(System.in);

@@ -1,15 +1,25 @@
 package pluralsight;
+import java.util.Scanner;
 
 public class MathApp {
     public static void main(String[] args){
-        double bobSalary = 75000 ;
-        double garySalary = 102000;
+        Scanner input = new Scanner(System.in);
+
+        System.out.print("what is Bob's salary? ");
+        double bobSalary = input.nextDouble();
+
+        System.out.print("What is Gary's salary? ");
+        double garySalary = input.nextDouble();
 
         double highestSalary = Math.max(bobSalary, garySalary);
         System.out.println("1.The highest salary is " + highestSalary);
 
-        double carPrice = 25000;
-        double truckPrice = 48300;
+
+        System.out.println("Whats the price of the car? ");
+        double carPrice = input.nextDouble();
+
+        System.out.println("What's the price of the truck? ");
+        double truckPrice = input.nextDouble();
 
         double cheaperCar = Math.min(carPrice, truckPrice);
         System.out.println("2.The cheaper car is " + cheaperCar);

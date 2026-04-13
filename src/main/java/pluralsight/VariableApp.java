@@ -17,7 +17,7 @@ public class VariableApp {
         System.out.println("My middle initial is " + "'" + middleInitial + "'");
 
         boolean havePets = false;
-            if (havePets == false) {
+            if (!havePets) {
             System.out.println("I do not have pets");
         }
         String niceMessage = "If you don't know it yet, you will. Your confidence will turn into knowledge";
@@ -36,7 +36,7 @@ public class VariableApp {
         System.out.println("My favorite letter is " + favoriteLetter);
 
         boolean isRaining = false;
-            if (isRaining == false){
+            if (!isRaining){
                 System.out.println("It is not raining");
             }
         System.out.println();
